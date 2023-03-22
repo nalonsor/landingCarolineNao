@@ -7,6 +7,8 @@
     <title>Caroline Sada | Web</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
    </head>
 <body>
 
@@ -51,8 +53,8 @@
                 </ul>
 
                 <div class="d-flex gap-3">
-                    <button class="btn btn-outline-success" type="submit"> Ingresar </button>
-                    <button class="btn btn-outline-success" type="submit"> Registrarse </button>
+                    <button class="btn btn-success" type="submit"> Ingresar </button>
+                    <button class="btn btn-success" type="submit"> Registrarse </button>
                 </div>
             </div>
         </div>
@@ -60,13 +62,19 @@
 
 
     <!-- Hero -->
-    <section>
+    <section class="hero">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h1>Invertir es fácil cuando lo haces de la mano de un experto</h1>
+                <div class="col-md-6 col-sm-12 cs-headline">
+                    <h1>
+                        Invertir es fácil
+                        cuando lo haces de la 
+                        mano de un experto</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.</p>
-                    <button class="btn btn-outline-success" >Saber m&aacute;s</button>
+                    <button class="btn btn-success" >Saber m&aacute;s</button>
+                </div>
+                <div class="col-md-6 col-sm-12 cs-pic">
+                    <img src="assets/img/hero_Image.png" alt="">
                 </div>
             </div>
         </div>
@@ -145,88 +153,94 @@
         </div>
     </section>
 
-    <section>
+    <section class="section-cursos">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <h2 id="jobs">Cursos</h2>
                 </div>
 
-                <div class="col-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5>El impacto de la globalizaci&oacute;n</h5>
+                <div class="wrapCards">
+
+                    <div class="col-md-5 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>El impacto de la globalizaci&oacute;n</h5>
+                                <div class="image">
+                                    <img src="assets/img/Project Cover.png" alt="">
+                                </div>
+                                <div class="card-footer">
+                                    <p>ARTICULO</p>
+                                    
+                                    <button class="btn btn-success">Saber m&aacute;s</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+    
+                    <div class="col-md-5 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>Digitalizaci&oacute;n Bancaria</h5>
                             <div class="image">
-                                <img src="assets/img/Project Cover.png" alt="">
-                            </div>
-                            <div class="card-footer">
-                                <p>ARTICULO</p>
-                                <button>Saber m&aacute;s</button>
+                                    <img src="assets/img/card2.png" alt="">
+                                </div>
+                                <div class="card-footer">
+                                    <p>VIDEO</p>
+
+                                    <button class="btn btn-success">Saber m&aacute;s</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
- 
-                <div class="col-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5>Digitalizaci&oacute;n Bancaria</h5>
-                           <div class="image">
-                                <img src="assets/img/card2.png" alt="">
-                            </div>
-                            <div class="card-footer">
-                                <p>VIDEO</p>
-                                <button>Saber m&aacute;s</button>
+                    <div class="col-md-5 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>Finanzas personales</h5>
+                                <div class="image">
+                                    <img src="assets/img/card3.png" alt="">
+                                </div>
+                                <div class="card-footer">
+                                    <p>VIDEO</p>
+                                    <button class="btn btn-success">Saber m&aacute;s</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5>Finanzas personales</h5>
-                            <div class="image">
-                                <img src="assets/img/card3.png" alt="">
-                            </div>
-                            <div class="card-footer">
-                                <p>VIDEO</p>
-                                <button>Saber m&aacute;s</button>
+                    <div class="col-md-5 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>Inteligencia financiera</h5>
+                                <div class="image">
+                                    <img src="assets/img/card4.png" alt="">
+                                </div>
+                                <div class="card-footer">
+                                    <p>ARTICULO</p>
+
+                                    <button class="btn btn-success">Saber m&aacute;s</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5>Inteligencia financiera</h5>
-                            <div class="image">
-                                <img src="assets/img/card4.png" alt="">
-                            </div>
-                            <div class="card-footer">
-                                <p>ARTICULO</p>
-                                <button>Saber m&aacute;s</button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-
             </div>
         </div>  
     </section>
 
-    <section>
+    <section class="section-contacto">
         <div class="container">
-            <div class="row">
+            <div class="row contacto">
 
-                <div class="col-6">
+                <div class="col-md-6 col-sm-12">
                     <img src="assets/img/constacto_img_group.png" alt="">
                 </div>
                 
-                <div class="col-6">
-                    <h1>Contactame</h1>
+                <div class="col-md-6 col-sm-12 cs-wrapForm">
+                    <h2>Contactame</h2>
                     <p>Estoy aquí para ti, cuéntame ¿cómo puedo ayudarte?</p>
 
                     <form action="#">
@@ -236,7 +250,7 @@
                         <input class="form-control" type="text" name="phone" placeholder="Teléfono">
                         <textarea class="form-control" name="content" cols="30" rows="10" placeholder="Adelante, te estoy escuchando..."></textarea>
 
-                        <button class="btn btn-outline-success" type="submit"> Enviar </button>
+                        <button class="btn btn-success" type="submit"> Enviar </button>
 
                     </form>
                 </div>
