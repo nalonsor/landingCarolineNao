@@ -6,6 +6,10 @@ body{
 
 .hero{
     background-color: #F4F5F7;
+    background-image: url('../img/hero_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top; 
 }
 
 .hero h1{
@@ -23,8 +27,15 @@ body{
 
 
 .hero .cs-pic{
+    display: flex;
+    justify-content: end;
     margin-top: 7rem;
     margin-bottom: 7rem;
+}
+
+
+.hero .cs-pic img{
+    width: 95%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -70,6 +81,119 @@ body{
         padding-bottom: 5rem;
     }
 
+}
+
+
+/* **************** CLIENTES *************** */
+
+.section-clients{
+    margin: 5rem auto;
+    background-color: #fff;
+}
+
+
+.section-clients .clients{
+    text-align: center;
+}
+
+.section-clients h2{
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+
+
+/* **************** ACERCA DE *************** */
+
+.section-about{
+    margin: 5rem auto;
+    background-color: #F6F7F9;
+    background-image: url(../img/about_bg.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+      background-attachment: fixed;
+
+}
+
+
+.section-about .about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section-about .cs-about-pic{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.section-about h2{
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+
+.section-about p{
+    max-width: 50ch;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+
+.section-about .social{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem
+}
+
+
+.section-about .social a{
+    transition: all 0.2s ease;
+}
+
+
+.section-about .social a:hover{
+    transform: scale(1.2);
+}
+
+
+/* **************** PRODUCTOS *************** */
+
+.section-products .products{
+    margin-bottom: 5rem;
+}
+
+.products{
+    text-align: center;
+}
+
+.products h2{
+    margin: 0rem auto;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5rem;
+    max-width: 15ch;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.product .content{
+    text-align: left;
+    max-width: 50ch;
+}
+
+
+.product h5{
+    font-weight: 700;
 }
 
 
