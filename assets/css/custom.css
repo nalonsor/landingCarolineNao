@@ -208,6 +208,13 @@ body{
         padding-top: 3rem;
         border-radius: 1rem;
         background-color: rgb(182, 213, 255);
+        margin: 0rem auto;
+        margin-top: 3rem;
+        width: 80%;
+    }
+
+    .section-about .cs-about-pic img{
+        width: 50%;
     }
 
     .section-about .about .desc{
@@ -216,6 +223,24 @@ body{
         margin-bottom: 5rem;
     }
 
+.section-about .social{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.section-about .social a{
+    width: 20%;
+    transition: all 0.2s ease;
+}
+
+
+.section-about .social a:hover{
+    transform: scale(1.2);
+}
 
 
 }
