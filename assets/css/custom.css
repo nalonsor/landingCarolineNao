@@ -394,3 +394,34 @@ body{
     }
 
 }
+
+
+.footer-nav .container{
+    display: flex;
+    /*flex-direction: row-reverse;*/**//
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-nav .container p{
+    padding-top: 1rem;
+    color: #D9DBE1;
+}
+
+.footer-nav .container a{
+    color:rgb(182, 213, 255);
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.footer-nav .container a:hover{
+    color: #7d5cd1;
+}
+
+
+.footer-nav .container .social{
+    color: #e1c4ff;
+    margin: 0rem 1rem;
+    font-size: 2rem;
+}
