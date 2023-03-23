@@ -2,7 +2,44 @@
 
 body{
     font-family: 'Manrope', sans-serif;
+    min-width: 600px;
 }
+
+.navbar-brand {
+    color: #956EF5!important;
+}
+
+.btn{
+    transition: all .2s ease;
+    font-weight: 700;
+}
+
+.btn-primary{
+    border: none;
+    background-color: #F1E4FF;
+    color: #956EF5;
+}
+
+.btn-success{
+    border: none;
+    background-color: #956EF5;
+    color: #fff;
+}
+
+
+.btn-primary:hover{
+    background-color: #e1c4ff;
+    color: #956EF5;
+    transform: scale(1.05);
+}
+
+.btn-success:hover{
+    border: none;
+    background-color: #7d5cd1;
+    color: #fff;
+    transform: scale(1.05);
+}
+
 
 .hero{
     background-color: #F4F5F7;
@@ -48,12 +85,13 @@ body{
     .hero .cs-pic{
         display: flex;
         padding-left: 7rem;
+        margin-top: 3rem;
         /*overflow: hidden;*/
     }
 
     .hero .cs-pic img{
         width: 100%;
-        margin: 5rem auto;
+        margin-top: 2rem!important;
         transform: scale(1.2);
     }
 
@@ -159,6 +197,28 @@ body{
     transform: scale(1.2);
 }
 
+
+@media only screen and (max-width: 768px) {
+
+    .section-about{
+        background-image: none;
+    }
+
+    .section-about .cs-about-pic{
+        padding-top: 3rem;
+        border-radius: 1rem;
+        background-color: rgb(182, 213, 255);
+    }
+
+    .section-about .about .desc{
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+    }
+
+
+
+}
 
 /* **************** PRODUCTOS *************** */
 
@@ -296,4 +356,16 @@ body{
     padding: .5rem 1rem;
     font-size: 1.5rem;
     height: 8rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .section-contacto .cs-wrapForm{
+        text-align: center;
+    }
+    .section-contacto .cs-contacto-img{
+        display: none;
+    }
+
 }
